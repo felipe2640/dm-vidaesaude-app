@@ -10,17 +10,14 @@ function Header() {
             <Image
               src="/exampleDM.png"
               alt="Vercel Logo"
-              width={72}
+              width={162}
               height={72}
-              className="rounded-full"
+              className=""
             />
           </div>
 
           <div className="lg:hidden">
-            <p className="text-2xl font-bold text-white">Saúde e vida</p>
-            {/* <div className="font-bold text-slate-700 dark:text-slate-500">
-              By Diniz Mourão Vida e Saúde
-            </div> */}
+            {/* <p className="text-2xl font-bold text-white">Saúde e vida</p> */}
           </div>
         </div>
       </div>

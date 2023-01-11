@@ -10,7 +10,7 @@ export default function FormsCTA({ inputNames, submitButton }: Props) {
   return (
     <>
       <form
-        action="/api/form"
+        action="/"
         method="post"
         className="grid grid-cols-1 gap-6 items-center text-center"
       >
@@ -18,6 +18,7 @@ export default function FormsCTA({ inputNames, submitButton }: Props) {
           <input
             id={name}
             name={name}
+            key={name}
             placeholder={name[0].toUpperCase() + name.substr(1)}
             className="form-input px-4 py-3 rounded-full focus:border-indigo-500 focus:ring focus:ring-indigo-400 focus:ring-opacity-50"
           />

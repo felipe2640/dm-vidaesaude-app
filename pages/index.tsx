@@ -10,12 +10,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Diniz e Mourão Vida e saúde</title>
+        <title>CorretoraDiniz e Mourão Vida e saúde</title>
         <link rel="icon" href="/exampleDM.png" />
       </Head>
-      <Header />
+
       <CTAone />
-      <CTAtwo />
     </>
   );
 };
